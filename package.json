@@ -13,6 +13,6 @@
   "devDependencies": {
     "bs-platform": "^2.1.0",
     "bsb-js": "^1.0.1",
-    "parcel-bundler": "git+https://github.com/Raincal/parcel.git#fix-raw-asset"
+    "parcel-bundler": "git+https://github.com/parcel-bundler/parcel.git"
   }
 }
