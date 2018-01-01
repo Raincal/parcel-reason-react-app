@@ -1,6 +1,6 @@
 {
   "name": "parcel-reason-react-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parcel Bundler Example with Reason React",
   "license": "MIT",
   "scripts": {
@@ -14,7 +14,7 @@
   "devDependencies": {
     "bs-platform": "^2.1.0",
     "bsb-js": "^1.0.1",
-    "parcel-bundler": "^1.3.1",
+    "parcel-bundler": "^1.4.1",
     "rimraf": "^2.6.2"
   }
 }
