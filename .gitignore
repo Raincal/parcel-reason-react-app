@@ -5,3 +5,4 @@ lib
 .cache
 .merlin
 .DS_Store
+.bsb.lock
