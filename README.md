@@ -32,4 +32,5 @@ npm run build
 See the section about deployment in [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment)
 
 ## License
+
 [MIT](./LICENSE)
