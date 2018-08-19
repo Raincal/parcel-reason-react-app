@@ -1,6 +1,6 @@
 {
   "name": "parcel-reason-react-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Parcel Bundler Example with Reason React",
   "license": "MIT",
   "scripts": {
@@ -10,11 +10,13 @@
     "clean": "rimraf .cache lib dist .merlin src/*.js"
   },
   "dependencies": {
-    "reason-react": "^0.3.1"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "reason-react": "^0.5.3"
   },
   "devDependencies": {
-    "bs-platform": "^2.1.0",
-    "bsb-js": "^1.0.2",
+    "bs-platform": "^4.0.5",
+    "bsb-js": "^1.1.7",
     "parcel-bundler": "^1.5.1",
     "rimraf": "^2.6.2"
   }
