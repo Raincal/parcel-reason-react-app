@@ -4,7 +4,7 @@
   "description": "Parcel Bundler Example with Reason React",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently 'npm:watch-html' 'npm:watch-reason'",
+    "start": "concurrently -c --kill-others 'npm:watch-html' 'npm:watch-reason'",
     "build": "parcel build src/index.html --public-url /",
     "clean": "rimraf .cache lib dist .merlin src/*.js",
     "watch-html": "parcel src/index.html",
