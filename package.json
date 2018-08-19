@@ -4,10 +4,11 @@
   "description": "Parcel Bundler Example with Reason React",
   "license": "MIT",
   "scripts": {
-    "start": "npm run watch & parcel src/index.html",
+    "start": "concurrently 'npm:watch-html' 'npm:watch-reason'",
     "build": "parcel build src/index.html --public-url /",
-    "watch": "bsb -make-world -w",
-    "clean": "rimraf .cache lib dist .merlin src/*.js"
+    "clean": "rimraf .cache lib dist .merlin src/*.js",
+    "watch-html": "parcel src/index.html",
+    "watch-reason": "bsb -make-world -w"
   },
   "dependencies": {
     "react": "^16.4.2",
@@ -17,7 +18,8 @@
   "devDependencies": {
     "bs-platform": "^4.0.5",
     "bsb-js": "^1.1.7",
-    "parcel-bundler": "^1.5.1",
+    "concurrently": "^3.6.1",
+    "parcel-bundler": "^1.9.7",
     "rimraf": "^2.6.2"
   }
 }
